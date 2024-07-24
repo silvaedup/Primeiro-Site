@@ -1,14 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playwrite+AR:wght@100..400&family=Playwrite+BE+WAL:wght@100..400&display=swap');
+.ok{
+  background-color: rgb(239, 233, 228);
 
-.geral {
-  background-color: #721010;
-  color: #fff;
+}
+.barra-menu{
+  background-color: rgb(150, 135, 124);
+  margin: none;
+  padding: 10px;  
+  gap: 50px;
+  line-break: right;
+  position: right;
+  background-position: right;
+
 }
 
-.p1 {
-  
-  
-  font-family: "Playwrite AR", sans-serif;
-  color: 5b5652;
-  
+.botao-menu {
+  border: none;
+  background-color: rgb(150, 135, 124);
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  border: none;
+  margin: none;
+  align-items: center;
+}
+
+.img1 {
+  height: 500px;
+  width: 500px;
+  padding-top: 10px;
+  border-left: solid transparent;
+  border-radius: 100px;
 }
